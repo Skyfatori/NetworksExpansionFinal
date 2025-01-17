@@ -1,7 +1,7 @@
 package io.github.sefiraat.networks.slimefun.network.grid;
 
 import com.balugaq.netex.api.helpers.Icon;
-import com.balugaq.netex.api.helpers.ItemStackHelper;
+import net.guizhanss.guizhanlib.minecraft.helper.inventory.ItemStackHelper;
 import com.github.houbb.pinyin.constant.enums.PinyinStyleEnum;
 import com.github.houbb.pinyin.util.PinyinHelper;
 import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
