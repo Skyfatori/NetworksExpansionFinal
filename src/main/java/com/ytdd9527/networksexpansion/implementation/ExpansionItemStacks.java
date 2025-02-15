@@ -791,9 +791,18 @@ public class ExpansionItemStacks {
             Networks.getLocalizationService().getItem("NTW_EXPANSION_ANNOUNCE_9", Material.BOOK),
             Theme.GUIDE
     );
+
+    public static final SlimefunItemStack NTW_EXPANSION_ANNOUNCE_10 = Theme.themedSlimefunItemStack(
+            Networks.getLocalizationService().getItem("NTW_EXPANSION_ANNOUNCE_10", Material.BOOK),
+            Theme.GUIDE
+    );
     public static final SlimefunItemStack NETWORK_CRAFTING_GRID_NEW_STYLE = Theme.themedSlimefunItemStack(
             Networks.getLocalizationService().getItem("NTW_EXPANSION_CRAFTING_GRID_NEW_STYLE", Material.CRAFTING_TABLE),
             Theme.MACHINE
+    );
+    public static final SlimefunItemStack STATUS_VIEWER = Theme.themedSlimefunItemStack(
+            Networks.getLocalizationService().getItem("NTW_EXPANSION_STATUS_VIEWER", Material.COMPASS),
+            Theme.TOOL
     );
 
     public static ItemStack Enchanted(Material material) {

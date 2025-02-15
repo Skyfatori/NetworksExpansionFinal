@@ -8,6 +8,7 @@ import org.bukkit.inventory.ItemStack;
 import static io.github.sefiraat.networks.slimefun.NetworkSlimefunItems.*;
 
 public class ExpansionRecipes {
+    public static final ItemStack hopper = new ItemStack(Material.HOPPER);
 
     public static final ItemStack[] NULL = new ItemStack[]{
             null, null, null,
@@ -1029,9 +1030,9 @@ public class ExpansionRecipes {
     };
 
     public static final ItemStack[] OFFSETTER = new ItemStack[]{
-            OPTIC_STAR.getItem(), OPTIC_CABLE.getItem(), OPTIC_STAR.getItem(),
-            OPTIC_CABLE.getItem(), ExpansionItemStacks.TRANSFER, OPTIC_CABLE.getItem(),
-            OPTIC_STAR.getItem(), OPTIC_CABLE.getItem(), OPTIC_STAR.getItem()
+            null, OPTIC_CABLE.getItem(), null,
+            hopper, NETWORK_MONITOR.getItem(), hopper,
+            null, OPTIC_CABLE.getItem(), null
     };
 
     public static final ItemStack[] BETTER_GRABBER = new ItemStack[]{
@@ -1043,5 +1044,11 @@ public class ExpansionRecipes {
             NETWORK_BRIDGE.getItem(), NETWORK_CRAFTING_GRID.getItem(), NETWORK_BRIDGE.getItem(),
             NETWORK_BRIDGE.getItem(), ExpansionItemStacks.NETWORK_GRID_NEW_STYLE, NETWORK_BRIDGE.getItem(),
             NETWORK_BRIDGE.getItem(), NETWORK_CRAFTING_GRID.getItem(), NETWORK_BRIDGE.getItem()
+    };
+
+    public static final ItemStack[] STATUS_VIEWER = new ItemStack[]{
+            NETWORK_BRIDGE.getItem(), OPTIC_CABLE.getItem(), NETWORK_BRIDGE.getItem(),
+            NETWORK_BRIDGE.getItem(), NETWORK_GRID.getItem(), NETWORK_BRIDGE.getItem(),
+            NETWORK_BRIDGE.getItem(), OPTIC_CABLE.getItem(), NETWORK_BRIDGE.getItem()
     };
 }
